@@ -1,0 +1,41 @@
+body{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "beats1 amazon1 apple1 adidas1"
+    "adidas2 apple2 amazon2 beats2"
+}
+
+#beats1{
+    grid-area: beats1;
+}
+
+#beats2{
+    grid-area: beats2;
+}
+
+#amazon1{
+    grid-area: amazon1;
+}
+
+#amazon2{
+    grid-area: amazon2;
+}
+
+#apple1{
+    grid-area: apple1;
+}
+
+#apple2{
+    grid-area:apple2;
+}
+
+#adidas1{
+    grid-area: adidas1;
+}
+
+#adidas2{
+    grid-area: adidas2;
+}
+
